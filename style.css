@@ -54,6 +54,11 @@ body {
     flex: 1 1 0px;
     width:0;
 }
+.flexitems{
+    height:100%;
+    width:100%;
+    object-fit: contain;
+}
 
 /* Quote */
 
