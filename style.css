@@ -49,15 +49,15 @@ body {
 }
 #flexbox{
     display:flex;
+    gap:20px;
 }
 .imgWithText{
-    flex: 1 1 0px;
-    width:0;
+
+
 }
 .flexitems{
-    height:100%;
+    border-radius: 25px;
     width:100%;
-    object-fit: contain;
 }
 
 /* Quote */
