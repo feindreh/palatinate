@@ -47,6 +47,13 @@ body {
 #pictures{
 
 }
+#flexbox{
+    display:flex;
+}
+.imgWithText{
+    flex: 1 1 0px;
+    width:0;
+}
 
 /* Quote */
 
