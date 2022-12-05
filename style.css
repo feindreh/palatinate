@@ -2,18 +2,66 @@ body {
     display:flex;
     flex-direction: column;
 }
+
+
+#top, #undertop{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+
+
+/* Header */
+
 #header{
     background-color: #1F2937;
+    color: #F9FAF8;
 }
+
+#top{
+    display:flex;
+    justify-content: space-between;
+}
+
+#links{
+    display:flex;
+    gap:20px;
+
+}
+
+#undertop{
+    display:flex;
+    margin-bottom:100px;
+}
+#headline{
+    flex: 1 1 0px;
+    width:0;
+}
+#imageOne{
+    flex: 1 1 0px;
+    width:0
+}
+/* Pictures */
+
 #pictures{
 
 }
+
+/* Quote */
+
 #quote{
     background-color: #E5E7EB;
 }
+
+/* Button */
+
 #button{
 
 }
+
+/* Footer */
+
 #footer{
     background-color: #1F2937;
 }
