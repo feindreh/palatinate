@@ -4,7 +4,7 @@ body {
 }
 
 
-#top, #undertop, #flexbox, h2{
+#top, #undertop, #flexbox, h2, .top, .bottom{
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -64,6 +64,12 @@ body {
 
 #quote{
     background-color: #E5E7EB;
+}
+.top{
+    margin-top:50px;
+}
+.bottom{
+    margin-bottom:50px;
 }
 
 /* Button */
