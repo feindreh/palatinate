@@ -1,14 +1,23 @@
 body {
     display:flex;
     flex-direction: column;
+    font-style: italic;
 }
 
 
 #top, #undertop, #flexbox, h2, .top, .bottom, #buttonBox{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
+.theButton{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size:18px;
+    padding: 10px 20px;
+    border-radius: 12px;
+    border: none;
+}
 
 
 
@@ -17,11 +26,24 @@ body {
 #header{
     background-color: #1F2937;
     color: #F9FAF8;
+    width:auto;
+}
+h1{
+    font-size: 48px;
+    font-weight:bold;
+    color: #F9FAF8;
+}
+#headline p{
+    font-size: 18px;
+    color:#E5E7EB;
 }
 
 #top{
     display:flex;
     justify-content: space-between;
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-bottom: 80px;
 }
 
 #links{
@@ -33,10 +55,12 @@ body {
 #undertop{
     display:flex;
     margin-bottom:100px;
+    gap:60px;
 }
 #headline{
     flex: 1 1 0px;
     width:0;
+    
 }
 #imageOne{
     flex: 1 1 0px;
