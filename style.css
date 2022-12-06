@@ -14,9 +14,12 @@ body {
     background-color: #3882F6;
     color: #F9FAF8;
     font-size:18px;
-    padding: 10px 20px;
+    padding: 8px 16px;
     border-radius: 12px;
     border: none;
+    white-space:nowrap;
+   
+    
 }
 
 
@@ -127,11 +130,34 @@ h2{
 }
 #buttonBox{
     background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 25px;
+    padding: 30px;
+    color: #F9FAF8;
+    font-size: 24px;
 }
 #buttonBox div{
     display:inline-block;
 }
 
+#whiteButton{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #F9FAF8;
+    align-items:center;
+    margin-top:20px;
+    margin-bottom: 20px;
+   
+}
+#buttonText{
+   
+}
+#bold{
+    font-weight: bolder;
+    margin-bottom: 0px;
+    
+}
 /* Footer */
 
 #footer{
