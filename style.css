@@ -4,7 +4,7 @@ body {
 }
 
 
-#top, #undertop, #flexbox, h2, .top, .bottom{
+#top, #undertop, #flexbox, h2, .top, .bottom, #buttonBox{
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -76,6 +76,12 @@ body {
 
 #button{
 
+}
+#buttonBox{
+    background-color: #3882F6;
+}
+#buttonBox div{
+    display:inline-block;
 }
 
 /* Footer */
