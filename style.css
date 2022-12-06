@@ -5,7 +5,7 @@ body {
 }
 
 
-#top, #undertop, #flexbox, h2, .top, .bottom, #buttonBox{
+#top, #undertop, #flexbox, h2, #buttonBox{
     margin-left: 15%;
     margin-right: 15%;
 }
@@ -101,12 +101,22 @@ h2{
 
 #quote{
     background-color: #E5E7EB;
+    margin-top:150px;
 }
 .top{
+    
+    font-size: 36px;
+    color: #1F2937;
+    margin:auto 30%;
     margin-top:50px;
 }
 .bottom{
     margin-bottom:50px;
+    margin:auto 30%;
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
 }
 
 /* Button */
